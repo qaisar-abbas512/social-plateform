@@ -1,0 +1,41 @@
+ .nave span {
+     font-size: 14px;
+     margin: 0 0 0 -58px;
+ }
+ .nave {
+    max-height: 40px;
+    background-color: #4E46B4;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    padding: 8px 25px 8px 118px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 50px;
+    right: 0;
+ }
+ .nave .drpdown a{
+    text-decoration: none;
+        padding: 5px 10px;
+        border-bottom: 1px solid;
+        width: 100%;
+ }
+  .nave .dropdown-menu {
+     padding: 1px;
+ }
+.nave input{
+    font-size: 10px;
+}
+.nave button.srch {
+    top: -10px;
+    right: -5px;
+}
+.nave .form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.nave input::placeholder {
+    color: white !important;
+    font-size: 10px;
+    
+}

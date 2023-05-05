@@ -1,0 +1,109 @@
+.selling-main{
+    background-color: white;
+    padding: 25px 25px 16px;
+    border-radius: 20px;
+    
+}
+.selling-main .person p.name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #100E24;
+}
+.selling-main .person p.name span.time{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+.selling-main .person p.two{
+    font-size: 14px;
+    color: #100E24;
+}
+.selling-main .person button{
+    border: none;
+    background-color: transparent;
+}
+.selling-main .person button.selle{
+    color: #4AD15F;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(74, 209, 95, 0.12);
+    border-radius: 8px;
+}
+.selling-main .price-box h2{
+    color: #4E46B4;
+    font-size: 18px;
+    font-weight: 600;
+}
+.selling-main .price-box p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #100E24;
+}
+.selling-main .price-box .horizentl-line{
+    background-color:  #9590D233;
+    width: 1px;
+    height: 48px;
+    margin: 0 auto;
+}
+.selling-main .appliances p.aplnce-content{
+    display: flex;
+    align-items: center;
+    color: #100E24;
+    font-size: 14px;
+    font-weight: 600;
+}
+.selling-main .appliances {
+    padding: 0px 0 0 20px;
+    
+}
+.selling-main .appliances .comment-emoji a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    padding: 4px 7px 4px 6px;
+    color: black;
+    border-radius: 50px;
+    background-color: rgba(29, 28, 29, 0.04);
+
+}
+.selling-main .comment-emoji a span.number{
+    margin-left: 10px;
+}
+.selling-main .comment-person img{
+    margin: 0 4px;
+}
+.selling-main .comment-person a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4E46B4;
+    margin: 0 7px 0 7px;
+}
+.selling-main .comment-person a span.time{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: 600;
+}
+.selling-main .appliances input{
+    background: #F5F5FB;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: none;
+}
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.selling-main .comment-sec button {
+    margin: 0 48px 0 0;
+    display: flex;
+    align-items: end;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+.selling-main .comment-sec button span{
+    font-size: 12px;
+    color: #536471;
+    margin-left: 8px;
+}

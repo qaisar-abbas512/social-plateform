@@ -1,0 +1,46 @@
+.signup-box {
+    padding: 22px;
+    height: 100dvh;
+    display: flex;
+    
+}
+
+.signup-box .right-box {
+    background-color: #F0EFFF;
+    border-radius: 15px;
+    height: 100%;
+
+}
+
+.signup-box .left-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0EFFF;
+    border-radius: 32px;
+    padding: 5px 12px;
+    text-align: center;
+
+}
+
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .signup-box {
+            height: 100vh;
+        }
+    .signup-box .left-box {
+        background-color: white;
+        border-radius: 0px;
+        padding: 0;
+        text-align: start;
+    }
+}
+
+@media only screen and (min-width: 991px) {}
+
+@media only screen and (min-width: 1200px) {}

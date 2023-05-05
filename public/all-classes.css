@@ -1,0 +1,20 @@
+body{
+    
+    font-size: 14px !important;
+    font-family: 'Manrope' !important;
+    font-weight: 400 !important;
+}
+button.btn-check:checked+.btn,
+button.active,
+button.btn.show,
+button.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border-color: transparent !important;
+    outline: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600 !important;
+}
+button{
+    letter-spacing: 1px !important;
+}

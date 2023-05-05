@@ -1,0 +1,22 @@
+.feeds h2{
+    font-size: 12px;
+    color: #818181;
+    margin-bottom: 10px;
+}
+.feeds .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 19px;
+}
+.feeds .main .actv-feed h3{
+    font-size: 18px;
+    color: #4E46B4;
+    margin: 0;
+}
+.feeds .main button{
+    background-color: transparent;
+    border: none;
+}

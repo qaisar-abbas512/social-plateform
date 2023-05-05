@@ -1,0 +1,44 @@
+img.saly{
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.content h2{
+    font-size: 48px;
+    color: #100E24;
+    margin: 20px 0 0;
+}
+.content p {
+    font-size: 24px;
+    color: #100E24;
+    margin: 0;
+    
+}
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 991px) {
+.content h2 {
+    font-size: 38px;
+
+}
+.content p {
+    font-size: 20px;
+
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.content h2 {
+    font-size: 48px;
+}
+.content p {
+    font-size: 24px;
+}
+}

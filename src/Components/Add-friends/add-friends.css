@@ -1,0 +1,92 @@
+
+.add-friends{
+    background-color: white;
+    padding: 22px;
+    border-radius: 20px;
+}
+.add-friends h3{
+    font-size: 18px;
+    color: #100E24;
+    margin-bottom: 22px;
+}
+.add-friends .search-sec p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+.add-friends form input{
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    padding: 10px 10px 10px 40px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 23px;
+
+}
+.add-friends form button.search{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.add-friends .friends-box .friends:nth-last-child(n-1) {
+    margin-bottom: 23px;
+}
+.add-friends .friends h4{
+    font-size: 14px;
+    color: #100E24;
+    margin-bottom: 3px;
+}
+.add-friends .friends p{
+    font-size: 12px;
+    color: #78858F;
+    margin: 0;
+}
+.add-friends .friends button{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4E46B4;
+    padding: 4px 8px;
+    border: none;
+    background-color: rgba(78, 70, 180, 0.12);
+}
+.add-friends .friends button.active{
+    color: #4E46B4;
+    background-color: rgba(78, 70, 180, 0.12);
+    
+}
+.add-friends .friends button:hover{
+    background-color: #DCDAF0;
+}
+.add-friends .search-result p{
+    font-size: 11px;
+    font-weight: 600;
+    color: #A0A0A0;
+    margin-bottom: 0;
+}
+.live-chat button.live-cht-btn {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    box-shadow: 3px 6px 13px 0.48px #e5e5e9;
+}
+.live-chat button.live-cht-btn.active{
+    background-color: white;
+}
+.live-chat .online-status {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #4AD15F;
+    border-radius: 100%;
+    bottom: 50px;
+    right: 45px;
+}
+    

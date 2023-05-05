@@ -1,0 +1,183 @@
+.header a {
+    font-size: 20px;
+    color: #100E24;
+    text-decoration: none;
+}
+
+.sign-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.sign-box .welcom-back img.mob-saly-1{
+max-width: 200px;
+}
+
+.sign-box .welcom-back h2 {
+    font-size: 24px;
+    color: #100E24;
+    margin-bottom: 5px;
+}
+
+.sign-box .welcom-back p {
+    font-size: 16px;
+    color: #100E24;
+}
+
+.sign-box label.form-check-label {
+    font-size: 14px;
+    color: #100E24;
+}
+
+.sign-box form button.show-hide.one {
+    color: black;
+    top: 2px;
+    right: 0;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.sign-box form .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.sign-box form .form-check-input:checked {
+    background-color: #4e46b4;
+    border-color: #4e46b4;
+}
+.sign-box form button.show-hide.two {
+    color: black;
+    top: 2px;
+    right: 0;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.sign-box form button.show-hide:hover {
+    color: black;
+}
+
+.sign-box form button.show-hide.active {
+    color: black;
+}
+
+.sign-box a.terms {
+    font-size: 12px;
+    color: #4E46B4;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.sign-box button.submit {
+    font-size: 16px;
+    color: white;
+    background-color: #4E46B4;
+    padding: 10px 16px;
+}
+
+.sign-box .social-box p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sign-box .social-box a {
+    padding: 0 10px;
+    color: rgba(16, 14, 36, 0.5);
+}
+
+.sign-box .an-account {
+    justify-content: center;
+}
+
+.sign-box .an-account p {
+    font-size: 14px;
+    color: rgba(16, 14, 36, 0.5);
+    margin-bottom: 0;
+}
+
+.sign-box .an-account a {
+    font-size: 14px;
+    color: #4E46B4;
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.order button{
+    order: -1;
+}
+.switch-btn{
+    background-color: #F2F2FA;
+}
+.switch-btn .btn-primary {
+    --bs-btn-color: #100E24;
+    --bs-btn-bg: transparent;
+    --bs-btn-active-color: #100E24;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #ccc;
+    border-radius: 8px !important;
+    --bs-btn-border-color: #f2f2fa;
+}
+
+
+
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {
+    .sign-box a.terms {
+            font-size: 14px;
+        
+        }
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .sign-box {
+        max-width: 440px;
+    }
+
+    .sign-box .welcom-back h2 {
+        font-size: 34px;
+    }
+
+    .sign-box form button.show-hide.one {
+        top: 33px;
+    }
+ .sign-box form button.show-hide.two {
+     top: 33px;
+ }
+    .sign-box .an-account {
+        justify-content: start;
+    }
+
+    .sign-box button.submit {
+        padding: 12px 16px;
+    }
+
+    .sign-box .an-account p {
+        font-size: 16px;
+    }
+
+    .sign-box .an-account a {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (min-width: 991px) {
+    .sign-box .welcom-back h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sign-box .welcom-back h2 {
+        font-size: 48px;
+    }
+
+}

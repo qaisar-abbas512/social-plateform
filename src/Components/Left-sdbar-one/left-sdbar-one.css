@@ -1,0 +1,37 @@
+.left-one {
+    margin: -40px 0 0;
+    position: fixed;
+    padding: 40px 5px 0;
+    
+}
+.left-one a{
+    display: block;
+}
+.left-one a:hover{
+    background-color: #4E46B4;
+    border-radius: 8px;
+  
+}
+.left-one a.active{
+    background-color: #4E46B4;
+    border-radius: 8px;
+
+}
+.left-one a:hover svg path{
+    fill: white;
+}
+.left-one a.active svg path {
+    fill: white;
+}
+.left-one span {
+    color: white;
+    font-size: 10px;
+    border: 1px solid #4AD15F;
+    border-radius: 100%;
+    background-color: #4AD15F;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    top: 4px;
+    right: 3px;
+}

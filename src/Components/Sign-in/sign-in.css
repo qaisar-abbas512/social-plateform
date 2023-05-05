@@ -1,0 +1,128 @@
+.header a{
+    font-size: 20px;
+    color: #100E24;
+    text-decoration: none;
+}
+.login-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.login-box .welcom-back h2{
+    font-size: 24px;
+    color: #100E24;
+    margin-bottom: 5px;
+}
+.login-box .welcom-back p {
+    font-size: 16px;
+    color: #100E24;
+}
+.login-box label.form-check-label {
+    font-size: 14px;
+    color: #100E24;
+}
+.login-box form .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.login-box form .form-check-input:checked {
+    background-color: #4e46b4;
+    border-color: #4e46b4;
+}
+.form-check-input:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.login-box form button.show-hide {
+    color: black;
+    top: 2px;
+    right: 0;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.login-box form button.show-hide:hover{
+    color: black;
+}
+.login-box form button.show-hide.active {
+    color: black;
+}
+.login-box button.forgt{
+    font-size: 14px;
+    color: #100E24;
+}
+.login-box button.submit{
+    font-size: 16px;
+    color: white;
+    background-color: #4E46B4;
+    padding: 10px 16px;
+}
+.login-box .social-box p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-box .social-box a{
+    padding: 0 10px;
+    color: rgba(16, 14, 36, 0.5);
+}
+.login-box .an-account{
+    justify-content: center;
+}
+.login-box .an-account p{
+    font-size: 14px;
+    color: rgba(16, 14, 36, 0.5);
+    margin-bottom: 0;
+}
+.login-box .an-account a {
+    font-size: 14px;
+    color: #100E24;
+    text-decoration: none;
+}
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {
+}
+@media only screen and (min-width: 576px) {
+}
+@media only screen and (min-width: 768px) {
+.login-box {
+    max-width: 440px;      
+}
+.login-box .welcom-back h2 {
+    font-size: 34px;
+}
+.login-box form button.show-hide {
+    top: 33px;
+}
+.login-box .an-account {
+    justify-content: start;
+}
+.login-box button.submit {
+    padding: 12px 16px;
+}
+.login-box .an-account p {
+    font-size: 16px;
+}
+.login-box .an-account a {
+    font-size: 16px;
+}
+}
+@media only screen and (min-width: 991px) {
+.login-box .welcom-back h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (min-width: 1200px) {
+.login-box .welcom-back h2 {
+    font-size: 48px;   
+}
+
+}

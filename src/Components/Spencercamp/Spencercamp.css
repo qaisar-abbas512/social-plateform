@@ -1,0 +1,55 @@
+.camp h2{
+    font-size: 24px;
+    color: #100E24;
+}
+.camp h2 span {
+    color: #4E46B4;
+    
+}
+.camp .profile-completed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px 8px 24px;
+    background-color: #ECEAFF;
+    border-radius: 8px;
+}
+.camp .profile-completed h3{
+    font-size: 24px;
+    color: #4E46B4;
+    margin: 0;
+}
+.camp .profile-completed p{
+    font-size: 12px;
+    color: #4E46B4;
+    margin: 0;
+}
+.camp .profile-completed button.open{
+    font-size: 14px;
+    color: #4E46B4;
+    font-weight: 600;
+
+}
+.camp .profile-completed button.close{
+    padding: 4px;
+    background-color: rgba(78, 70, 180, 0.1);
+    border-radius: 8px;
+    display: flex;
+    border: none;
+}
+.camp .main button.btn-primary {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4E46B4;
+}
+.camp .main{
+    background: #FFFFFF;
+    border: 1px solid #ECEAFC;
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+.camp .main .creat-post p{
+    font-size: 16px;
+    color: #858EAD;
+    margin: 0 0 0 20px;
+}

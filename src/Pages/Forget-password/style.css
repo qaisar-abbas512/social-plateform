@@ -1,0 +1,32 @@
+.main-one{
+    background-color: white;
+    padding: 20px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+
+
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .main-one {
+            padding: 31px 42px;
+            overflow: hidden;
+            height: 100vh;
+    
+        }
+}
+
+@media only screen and (min-width: 991px) {}
+
+@media only screen and (min-width: 1200px) {}

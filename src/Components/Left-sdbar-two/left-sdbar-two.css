@@ -1,0 +1,130 @@
+.left-two {
+    position: fixed;
+    left: 50px;
+    background-color: #F4F4FB;
+    padding: 14px 0 0;
+    height: -webkit-fill-available;
+        flex: 0 0 auto;
+            width: 20.5%;
+}
+
+.left-two h3{
+    font-size: 12px;
+    color: #818181;
+}
+.left-two .categories button.btn{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #100E24;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 0;
+}
+.left-two .categories button.btn:hover{
+    color: #4E46B4 ;
+    background-color: #DCDAF0;
+    border-radius: 7px;
+}
+.left-two .categories button.btn.active{
+    background-color: #DCDAF0;
+    color: #4E46B4;
+}
+.left-two .trending {
+    width: 100%;
+}
+
+.left-two .trending p{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+
+}
+.left-two .trending p.one{
+    color:#004F47 ;
+}
+.left-two .trending p.two {
+    color:#4D085F ;
+}
+.left-two .trending p.three {
+    color:#7F4C0A ;
+}
+.left-two .trending p.four {
+    color:#155D18;
+}
+.left-two .trending p.five {
+    color:#910B08 ;
+}
+.left-two .lead {
+    background-color: #EDEDF8;
+    padding: 5px 12px;
+    
+}
+.left-two .lead .content p.name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.left-two .lead .content p.status {
+    font-size: 12px;
+}
+
+.lead .online-status {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #4AD15F;
+    border-radius: 100%;
+    bottom: 4px;
+    left: 23px;
+}
+.left-two .accordion {
+    width: 100%;
+}
+.left-two .accordion-body {
+    background-color: #f4f4fb;
+    padding: 0;
+}
+.left-two .accordion-item {
+    border: 0;
+    background: #f4f4fb;
+}
+.left-two button.accordion-button {
+    background: none;
+    padding: 0;
+    font-size: 12px;
+    color: #4E46B4;
+    font-weight: 600;
+}
+.left-two .accordion-header {
+    margin-bottom: 0;
+    background: #f4f4fb;
+    float: right;
+    margin-right: 20px;
+}
+.left-two .accordion-button:focus {
+    box-shadow: 0 0 0 0;
+}
+.left-two .accordion-button::after{
+    display: none;
+}
+.left-two button.accordion-button {
+    background: none;
+    padding: 0;
+    cursor: pointer;
+
+}
+.left-two button.accordion-button.collapsed{
+    transform: translate(0, -30px);
+}
+.left-two button.accordion-button.collapsed span {
+    margin-top: 0px;
+    transform: rotate(179deg);
+    padding-bottom: 4px;
+}
+.left-two button.accordion-button span {
+    margin-top: 0px;
+    transform: rotate(0deg);
+    padding-bottom: 5px;
+}

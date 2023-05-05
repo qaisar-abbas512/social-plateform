@@ -1,0 +1,169 @@
+
+.regitration2-box {
+    padding: 15px 24px;
+    height: 100dvh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.regitration2-box .header a.web {
+    font-size: 20px;
+    color: #100E24;
+    text-decoration: none;
+    display: none;
+}
+
+.regitration2-box .header a.back-button {
+    display: block;
+}
+
+.regitration2-box .header .progresbar-top {
+    min-width: 145px;
+    display: block;
+}
+
+.regitration2-box .header .progresbar-top .progress {
+    max-height: 4px;
+}
+
+.regitration2-box .header .progresbar-top p {
+    font-size: 12px;
+    color: #100E24;
+    margin-bottom: 0;
+    text-align: end;
+}
+
+.regitration2-box .registration2 {
+    max-width: 880px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.regitration2-box .registration2 .content h2 {
+    font-size: 34px;
+    color: #100E24;
+    margin: 0 0 10px;
+}
+
+.registration2 .content p {
+    font-size: 16px;
+    color: #100E24;
+    margin-bottom: 10px;
+}
+
+.regitration2-box .registration2 form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.regitration2-box .registration2 form .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.regitration2-box .registration2 form .form-select:focus {
+    border-color: #ced4da;
+   
+    box-shadow: none;
+}
+.registration2 form .inputs label {
+    font-size: 16px;
+    color: #000000;
+}
+
+.registration2 form .inputs input {
+    font-size: 16px;
+    width: 100%;
+}
+
+.registration2 form .chose-type button.step {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 16px;
+    background-color: #4E46B4;
+    border-radius: 8px;
+    width: 100%;
+}
+.regitration2-box .progres-bar {
+    min-width: 470px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
+    display: none;
+}
+
+.regitration2-box .progres-bar p {
+    font-size: 16px;
+    color: #100E24;
+    margin-bottom: 0;
+   
+}
+.regitration2-box .progres-bar button {
+    font-size: 16px;
+    color: #4E46B4;
+}
+
+.regitration2-box .progres-bar .progress {
+    max-height: 4px;
+    background-color: #F5F5F5;
+    --bs-progress-bar-bg: #4E46B4;
+}
+
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .regitration2-box {
+            height: 100vh;
+            padding: 30px 40px;
+            
+            
+        }
+    .regitration2-box .progres-bar {
+
+        display: block;
+    }
+
+    .regitration2-box .header a.web {
+
+        display: block;
+    }
+
+    .regitration2-box .header a.back-button {
+        display: none;
+    }
+
+    .regitration2-box .header .progresbar-top {
+        min-width: 145px;
+        display: none;
+    }
+
+    .registration2 .content h2 {
+        font-size: 48px;
+
+    }
+
+    .regitration2-box .registration2 {
+        padding: 0 0 0 100px;
+    }
+
+    .registration2 form .chose-type {
+        max-width: 378px;
+    }
+        .regitration2-box .registration2 form {
+           
+            display: block;
+           
+        }
+}
+
+@media only screen and (min-width: 991px) {}
+
+@media only screen and (min-width: 1200px) {}

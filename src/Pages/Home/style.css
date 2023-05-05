@@ -1,0 +1,33 @@
+.profile-main {
+    padding: 20px 18px 0 0;
+    overflow: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    right: 0;
+    width: 24%;
+}
+
+.profile-main::-webkit-scrollbar {
+    display: none;
+}
+.bg-gray {
+    background-color: #F4F4FB;
+    height: 100%;
+}
+.wrap{
+    overflow: hidden;
+    padding-top: 41px;
+    background-color: #F8F8FC;
+}
+/* ----------------responsive-sec---------------- */
+
+@media only screen and (min-width: 420px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 991px) {}
+
+@media only screen and (min-width: 1200px) {}
