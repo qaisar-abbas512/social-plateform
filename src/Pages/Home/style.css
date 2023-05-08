@@ -3,9 +3,8 @@
     overflow: scroll;
     height: 100vh;
     overflow-x: hidden;
-    position: fixed;
     right: 0;
-    width: 24%;
+    
 }
 
 .profile-main::-webkit-scrollbar {
@@ -28,6 +27,11 @@
 
 @media only screen and (min-width: 768px) {}
 
-@media only screen and (min-width: 991px) {}
+@media only screen and (min-width: 991.99px) {
+    .profile-main {
+            position: fixed;
+            width: 24%;
+        }
+}
 
 @media only screen and (min-width: 1200px) {}

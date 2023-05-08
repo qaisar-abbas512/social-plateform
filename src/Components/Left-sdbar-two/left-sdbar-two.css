@@ -1,16 +1,21 @@
 .left-two {
-    position: fixed;
     left: 50px;
     background-color: #F4F4FB;
     padding: 14px 0 0;
     height: -webkit-fill-available;
         flex: 0 0 auto;
-            width: 20.5%;
+        width: 100%;
+       
 }
-
-.left-two h3{
+.left-two .categories-wrap button.view-btn{
+    color: #4E46B4;
     font-size: 12px;
-    color: #818181;
+    text-decoration-line: underline;
+
+}
+.left-two h3{
+    font-size: 14px;
+    color: black;
 }
 .left-two .categories button.btn{
     display: flex;
@@ -19,16 +24,40 @@
     color: #100E24;
     font-size: 14px;
     width: 100%;
-    padding-left: 0;
+    padding: 6px 10px;
+    border: 1px solid #D0CFD2;
+    border-radius: 18px;
+    margin-right: 5px;
 }
-.left-two .categories button.btn:hover{
-    color: #4E46B4 ;
-    background-color: #DCDAF0;
-    border-radius: 7px;
+.left-two .nave-two.left-nav3 button.btn{
+    border: none;
+    margin-bottom: 10px;
 }
-.left-two .categories button.btn.active{
-    background-color: #DCDAF0;
+.left-two .categories button.btn p{
+    margin-bottom: 0;
+  
+}
+.left-two .categories button.btn.all {
+    color: white;
+    background-color: #4E46B4;
+    padding: 10px 15px;
+    border: none;
+
+}
+ .left-two .nave-two.left-nav3 button.btn.all{
+    display: none;
+ }
+.left-two .categories button.btn.active {
+    background-color: #f4f4fb;
     color: #4E46B4;
+    border: 1px solid #D0CFD2 !important;
+    border-radius: 18px;
+}
+.left-two .nave-two.left-nav3 button.btn.active {
+    background-color: transparent;
+    color: #4E46B4;
+    border: none !important;
+    border-radius: 0;
 }
 .left-two .trending {
     width: 100%;
@@ -83,8 +112,21 @@
     width: 100%;
 }
 .left-two .accordion-body {
+    padding: 0;
+    display: flex;
     background-color: #f4f4fb;
     padding: 0;
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.left-two .categories button.btn p {
+    white-space: nowrap;
+}
+ .left-two .nave-two.left-nav3 .accordion-body {
+    display: block;
+    overflow: hidden;
+    background-color: white;
 }
 .left-two .accordion-item {
     border: 0;
@@ -96,6 +138,7 @@
     font-size: 12px;
     color: #4E46B4;
     font-weight: 600;
+    box-shadow: none;
 }
 .left-two .accordion-header {
     margin-bottom: 0;
@@ -127,4 +170,99 @@
     margin-top: 0px;
     transform: rotate(0deg);
     padding-bottom: 5px;
+}
+.nave-two {
+    width: 100%;
+}
+.nave-two.left-nav2 {
+        width: 100%;
+
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: #fff;
+            top: -1000px;
+            transition: all 0.5s;
+            width: 100%;
+}
+
+.nave-two.left-nav3 {
+    width: 100%;
+    position: fixed;
+    max-width: 350px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    top: 115px;
+    transition: all 0.5s;
+    padding: 16px 20px;
+    box-shadow: 0px 8px 24px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+}
+.categories-head {
+    display: none;
+}
+.nave-two.left-nav3 .categories-head {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nave-two.left-nav3 .apply-btn {
+    display: block;
+}
+.nave-two.left-nav2 {
+    position: static;
+    background: transparent;
+    max-width: 100%;
+}
+@media only screen and (min-width: 991.99px) {
+.left-two .categories button.btn:hover {
+        color: #4E46B4;
+        background-color: #DCDAF0;
+        border-radius: 7px;
+    }
+    .left-two .categories button.btn {
+    padding-left: 0;
+    border:none;
+    border-radius: 0;
+    margin-right: 0px;
+        }
+.left-two .categories button.btn.active {
+    background-color: #DCDAF0;
+    color: #4E46B4;
+    border-radius: 7px;
+}
+.left-two h3 {
+    font-size: 12px;
+    color: #818181;
+}
+.nave-two.left-nav3 .apply-btn {
+    display: none;
+}
+
+.nave-two.left-nav2 {
+    position: static;
+    background: transparent;
+    max-width: 100%;
+    }
+
+    .nave-two {
+    position: transparent;
+    }
+    .left-two {
+    position: fixed;
+    width: 21.5%;
+    }
+    .left-two .accordion-body {
+    display: block;
+    overflow: hidden;
+    }
+    .left-two .categories button.btn p {
+        white-space: normal;
+    }
+
+
 }

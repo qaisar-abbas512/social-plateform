@@ -15,7 +15,7 @@ export default function Header() {
               Link Button
             </Dropdown.Toggle>
 
-            <Dropdown.Menu className="drpdown d-flex flex-column align-items-start">
+            <Dropdown.Menu className="drpdown flex-column align-items-start">
               <Link to="/Sign-in">Sign in</Link>
               <Link to="/Forget-password">Forget password</Link>
               <Link to="/Reset-password">Reset password</Link>

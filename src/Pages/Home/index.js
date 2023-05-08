@@ -17,13 +17,13 @@ export default function Home() {
       <div className="wrap">
         <Header />
         <Row className="gx-4">
-          <Col xs={3}>
+          <Col lg={3}>
             <div className="d-flex bg-gray">
               <Leftone />
               <Lefttwo />
             </div>
           </Col>
-          <Col xs={6}>
+          <Col lg={6}>
             <div className="main-box">
               <Spencercamp />
               <Activfeed />
@@ -31,7 +31,7 @@ export default function Home() {
               <Buying />
             </div>
           </Col>
-          <Col xs={3}>
+          <Col lg={3}>
             <div className="profile-main">
               <Profile />
               <Addfriends />

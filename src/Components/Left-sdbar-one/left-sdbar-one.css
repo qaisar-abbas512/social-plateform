@@ -1,27 +1,34 @@
-.left-one {
-    margin: -40px 0 0;
-    position: fixed;
-    padding: 40px 5px 0;
-    
-}
+
 .left-one a{
     display: block;
+    text-decoration: none;
+    color: #100E24;
+    width: 100%;
+}
+.left-one a p{
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+.left-one .logout-sec{
+    width: 100%;
 }
 .left-one a:hover{
-    background-color: #4E46B4;
+    background-color: rgba(78, 70, 180, 0.1);
     border-radius: 8px;
+    color: #4E46B4;
   
 }
 .left-one a.active{
-    background-color: #4E46B4;
+    background-color: rgba(78, 70, 180, 0.1);
     border-radius: 8px;
+    color: #4E46B4;
 
 }
 .left-one a:hover svg path{
-    fill: white;
+    fill: #4E46B4;
 }
 .left-one a.active svg path {
-    fill: white;
+    fill: #4E46B4;
 }
 .left-one span {
     color: white;
@@ -32,6 +39,146 @@
     width: 16px;
     height: 16px;
     text-align: center;
+    top: 3px;
+    left: 21px;
+}
+.app.left-nav {
+    width: 50px;
+}
+.app.left-nav {
+    width: 300px;
+    position: fixed;
+    z-index: 9;
+    right: -860px;
+    transition: all 0.5s;
+}
+.app {
+    width: 300px;
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+}
+button.d-lg-none.closs {
+    position: fixed;
+    top: 4px;
+    right: 7px;
+    z-index: -1;
+}
+.left-one .header .single-profile p{
+    font-size: 12px;
+    color: #100E24;
+    margin-bottom: 0;
+}
+.left-one .header .single-profile h3 {
+    font-size: 12px;
+    color: #4E46B4;
+    margin-bottom: 0;
+}
+.left-one .logout-sec a.logout{
+    width: 100%;
+}
+@media only screen and (min-width: 991.99px) {
+    .app.left-nav {
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    }
+    .left-one .logout-sec a.logout{
+    width: auto;
+    }
+    .left-one .logout-sec{
+    width: auto;
+    }
+.left-one a {
+    width: auto;
+}
+    .app {
+    width: 50px;
+    position: static;
+    }
+    .left-one a:hover svg path {
+    color: #BFBCDE;
+    }
+    .left-one a:hover svg path {
+    fill: white;
+    }
+
+    .left-one a.active svg path {
+    fill: white;
+    }
+.left-one a:hover {
+    background-color: #4E46B4;
+    border-radius: 8px;
+
+}
+
+.left-one a.active {
+    background-color: #4E46B4;
+    border-radius: 8px;
+
+}
+.left-one span {
     top: 4px;
     right: 3px;
 }
+.left-one a p {
+    font-size: 14px;
+    margin: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .fade.offcanvas-backdrop.show {
+    display: none;
+}
+.left-nave {
+    max-width: 300px !important;
+}
+
+.offcanvas {
+    transition: transform .3s ease-in-out;
+}
+button.open-btn {
+    position: absolute;
+    z-index: 9999;
+}
+.offcanvas.offcanvas-start {
+    left: auto;
+    right: -760px;
+}
+@media only screen and (min-width: 991px) {
+
+button.btn-close {
+    display: none;
+}
+.left-nave {
+    max-width: 50px !important;
+}
+.offcanvas.offcanvas-start {
+    left: 0;
+}
+.offcanvas {
+    transition: transform .0s ease-in-out;
+}
+
+} */
